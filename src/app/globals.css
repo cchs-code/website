@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
+  padding: 1em 0;
+}
+
+section:nth-child(odd) {
+  background: rgb(224, 224, 224);
+}
+
+nav a {
+  padding: 1em 0.3em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: rgb(32, 85, 198);
+}
+
+main a {
+  color: rgb(66, 126, 217);
+  text-decoration: underline;
+}
